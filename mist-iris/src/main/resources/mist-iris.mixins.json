@@ -1,0 +1,28 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.lumenfall.irisext.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "IrisRenderingPipelineAccessor",
+    "MixinBlockRenderer",
+    "MixinChunkBuilderMeshingTask",
+    "MixinCommonUniforms",
+    "MixinDefaultChunkRenderer",
+    "MixinDefaultFluidRenderer",
+    "MixinFluidRendererImpl",
+    "MixinFormatAnalyzer",
+    "MixinIrisRenderingPipeline",
+    "MixinProgramCreator",
+    "MixinShaderProperties",
+    "MixinShadowRenderer",
+    "MixinSodiumVertex",
+    "MixinStandardMacros",
+    "MixinVanillaRenderingPipeline",
+    "MixinXHFPTerrainVertex",
+    "ShaderPackAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

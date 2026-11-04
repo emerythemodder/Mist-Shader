@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "mist-iris",
+  "version": "${version}",
+  "name": "Mist Iris Extension",
+  "description": "Iris add-on for the Mist shader pack: block neighbour data for terrain (at_neighbors, smooth terrain), entity/block tracking uniforms, and a cheaper shadow pass. Works with the normal Iris and Sodium.",
+  "authors": [
+    "Mist"
+  ],
+  "license": "LGPL-3.0-only",
+  "environment": "client",
+  "mixins": [
+    "mist-iris.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "26.3",
+    "iris": ">=1.11.6",
+    "sodium": "0.9.x"
+  }
+}
